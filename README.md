@@ -8,7 +8,9 @@ The basic building block in this architecture is the 'Inception Module' which co
 - Loss Function: Sparse Categorical Crossentropy (10 output classes)
 - Optimizer: SGD (stochastic gradient descent) with momentum 0.9
 - No. of Parameters ~ 5.9 million 
+- Metric: Accuracy
 - Epochs : 15
-## Test Set Performance
-## Improvements
-## Applications
+## Possible Improvements and Applications
+- After  a modest 15 epochs of training, the model was able to achieve 77% accuracy. More epochs could greatly enhance the accuracy.
+- Using a hardware accelerator (GPU) would allow us to use much larger datasets and improve performance.
+- 

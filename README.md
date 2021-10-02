@@ -13,4 +13,4 @@ The basic building block in this architecture is the 'Inception Module' which co
 ## Possible Improvements and Applications
 - After  a modest 15 epochs of training, the model was able to achieve 77% accuracy. More epochs could greatly enhance the accuracy.
 - Using a hardware accelerator (GPU) would allow us to use much larger datasets and improve performance.
-- 
+- Inceptionv3 is the third edition of Google's Inception CNN and has been included in the TensorFlow Keras API for image analysis and classification.

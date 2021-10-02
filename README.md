@@ -5,10 +5,10 @@ The Inception model was used for image classification on resized (224x224) image
 <img src="https://github.com/Aadit3003/GoogLeNet-implementation/blob/339fc265254af2fa391c986bb83fd8edc1a48591/demo_images/cifar10.png" width="600"><br/>
 ## Model Architecture
 The basic building block in this architecture is the 'Inception Module' which combines 2 ideas. First, the outputs of 1x1, 3x3, and 5x5 convolutions are concatenated into a single input for the next layers. Second, 1x1 convolutions (ReLU activation) are used before each of these to apply dimension reduction and lower the computation cost. A total of 9 inception modules along with Max Pooling and Fully Connected layers are used in the model. <p/>
-<em><b>Inception Module</b></em> <br/>
+<em><b>Inception Module:</b></em> <br/>
 <img src="https://github.com/Aadit3003/GoogLeNet-implementation/blob/339fc265254af2fa391c986bb83fd8edc1a48591/demo_images/inception_module.png" width="600"><p/>
-<em><b>GoogLeNet architecture</b></em> <br/>
-<img src="https://github.com/Aadit3003/GoogLeNet-implementation/blob/7339f4da945178950fc84fd2d0837a54c1a1d912/demo_images/model.png" width="600"><br/>
+<em><b>GoogLeNet Architecture:</b></em> <br/>
+<img src="https://github.com/Aadit3003/GoogLeNet-implementation/blob/8a21755d8aae0d0f29cf9b24078fc406dbb4f34c/demo_images/model.png" width="1200"><br/>
 
 ## Training
 - Loss Function: Sparse Categorical Crossentropy (10 output classes)
@@ -16,7 +16,7 @@ The basic building block in this architecture is the 'Inception Module' which co
 - No. of Parameters ~ 5.9 million 
 - Metric: Accuracy
 - Epochs : 15 <p/>
-<em><b>Tensorboard epoch accuracy and loss</b></em>
+<em><b>Tensorboard epoch accuracy and loss:</b></em>
 
 <img src="https://github.com/Aadit3003/GoogLeNet-implementation/blob/7339f4da945178950fc84fd2d0837a54c1a1d912/demo_images/combined.png" width="500"><br/>
 ## Possible Improvements and Applications
